@@ -1,0 +1,9 @@
+name: enpol-expectativas-mujeres
+channels:
+  - conda-forge
+dependencies:
+  - pandas
+  - altair
+  - pip
+  - pip:
+    - arrow

@@ -1,0 +1,13 @@
+name: analisis-expectativas-mujeres
+channels: 
+  - conda-forge
+dependencies:
+  - python=3.8
+  - jupyterlab=3.*
+  - altair=4.1.*
+  - pandas=1.*
+  - pip:
+    - sidetable
+    - pandas_profiling
+    - pyjanitor
+    - ipywidgets widgetsnbextension pandas-profiling
